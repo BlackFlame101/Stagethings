@@ -404,31 +404,7 @@ color: var(--white);
     text-align: center;
 }
 
-.status.delivered {
-    padding: 2px;
-    background: #8DE02C;
-    color: var(--white);
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 500;
-}
 
-.status.Waiting {
-    padding: 2px;
-    background: orange;
-    color: var(--white);
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 500;
-}
-.status.canceled {
-    padding: 2px;
-    background:red;
-    color: var(--white);
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 500;
-}
 
 .action .menu{
     position: absolute;
@@ -508,76 +484,6 @@ color: var(--white);
     color: pink;
 }
 
-.details .transport-form {
-    display: flex;
-}
-
-.details .transport-form form .row{
-justify-content: space-between;
-margin-top: 20px;
-
-}
-.details .transport{
-    position: relative;
-    display: grid;
-    min-height: 500px;
-    width: 400px;
-    background: var(--white);
-    padding: 20px;
-    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
-    border-radius: 20px;
-}
-.details .transport-form form .row input{
-    font-size: 18px;
-    padding: 10px;
-    width: 360px;
-}
-
-.details .transport-form form .row select{
-    font-size: 18px;
-    color: grey;
-    padding: 10px;
-    width: 360px;
-}
-.details .transport-form form .row button{
-    font-size: 18px;
-    padding: 10px;
-    left:100px;
-}
-input[type="file"]{
-    display: none;
-}
-.details .transport-form form .row label{
-    color: #222;
-    height: 60px;
-    width: 360px;
-    background-color: #f5F5F5;
-    position: relative;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgba(0,0,0,0.5);
-}
-.details .transport-form form .row1  button{
-    font-size: 18px;
-    padding: 10px;
-    left:100px;
-}
-.details .transport-form form .row1 img{
-    align-items: center;
-    height: 330px;
-    width: 300px;
-    margin-left:0;
-}
-.details .transport-form form .row1{
-    margin: 30px;
-}
 
 .cardHeader2{
     display: flex;
