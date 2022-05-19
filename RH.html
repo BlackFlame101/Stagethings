@@ -1,0 +1,376 @@
+<!DOCTYPE html >  
+<html lang="fr">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Admin</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <img src="images/mightbe.png" alt="" style="width: 90%;height: 90%;">
+                        </a>
+                    </li>
+                    <li>
+                            <a href="index.html">
+                                <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                                <span class="title">Formulaire des centres</span>
+                            </a>
+                    </li>
+                    <li>
+                        
+                            <a href="Prestation.html">
+                                <span class="icon"><img src="images/prestations-de-service.png" alt="" style="width: 80%;height: 80%;"></span>
+                                <span class="title">Formulaire des prestations</span>
+                            </a>
+                       
+                    </li>
+                    <li>
+                        
+                        <a href="RH.html">
+                            <span class="icon"><ion-icon name="accessibility-outline"></ion-icon></span>
+                            <span class="title">Formulaire des bénéficiaires</span>
+                        </a>
+                        
+                    </li>
+                    
+                    <li>
+                        <div class="main-thing">
+                        <a href="RH.html">
+                            <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                            <span class="title">Formulaire des Recources Humaines</span>
+                        </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="cog-outline"></ion-icon></span>
+                            <span class="title">Paramétres</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                            <span class="title">SignOut</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- main -->
+
+            <div class="main">
+                <div class="Sticky">
+                <div class="topbar">
+                    <div class="toggle">
+                        <ion-icon name="menu-outline"></ion-icon>    
+                    </div>
+                    <div class="search">
+                        <label for="">
+                            <input type="text" placeholder="Search Here"><ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+                    <!-- userImage -->
+                    <div class="action">
+                        <div class="user" onclick="menuToggle();">
+                            <img src="images/hhh.PNG">
+                        </div>
+                        <div class="menu">
+                            <h3>Brahim<br><span>CAPE Employé</span></h3>
+                            <ul>
+                                <li><ion-icon name="person-circle-outline"></ion-icon><a href="#">My Profile</a></li>
+                                <li><ion-icon name="create-outline"></ion-icon></ion-icon><a href="#">Edit Profile</a></li>
+                                <li><ion-icon name="albums-outline"></ion-icon></ion-icon><a href="#">Inbox</a></li>
+                                <li><ion-icon name="settings-outline"></ion-icon></ion-icon><a href="#">Settings</a></li>
+                                <li><ion-icon name="log-out-outline"></ion-icon></ion-icon><a href="#">Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Big-title" style="margin-left:30px; margin-top: 20px;">
+                    <h2>Formulaire des centres</h2>
+                </div>
+
+            <!-- cards -->
+            <div class="cardBox">
+                <div class="card" >
+
+                        <ul>
+                            <li class="firstelment active" id="firstelment" ><a class="cardName" href="#firstelment" >Information_general</a></li>
+                        </ul>
+                   
+                </div>
+                <div class="card">
+               
+                        <ul>
+                            <li class="secondelement" id="secondelement"><a class="cardName" href="#secondelement">État civil</a></li>
+                        </ul>
+            
+                </div>
+                <div class="card">
+                 <ul>
+                            <li class="thirdelement" id="thirdelement"><a class="cardName" href="#thirdelement">Compétences</a></li>
+                        </ul>
+                        
+
+                </div>
+                <div class="card">
+                  
+                        <ul>
+                            <li class="fourthelement" id="fourthelement"><a class="cardName" href="#fourthelement">État sanitaire</a></li>
+                        </ul>
+                        
+                 
+                </div>
+                <div class="card">
+                   
+                        <ul>
+                            <li class="fifthelement" id="fifthelement"><a class="cardName" href="#fifthelement">Lieu du travail</a></li>
+                        </ul>
+                        
+                  
+                </div>
+                <div class="card">
+                   
+                        <ul>
+                            <li class="sixthelement" id="sixthelement"><a class="cardName" href="#sixthelement">Probléme</a></li>
+                        </ul>
+                        
+                 
+                </div>
+
+            </div>
+        </div>
+<!-- order details list -->
+        <section class="details" id="firstelment">
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Information general</h2>
+                </div>
+               <div class="formBox">
+                   <form action="">
+                       <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="CIN" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Sexe" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Nom familiale" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Lieu de naissance" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Email" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Addresse" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Date de naissance" style="width: 150% ;">
+                        </div>
+                   </form>
+               </div> 
+            </div>
+        </section>
+        <section class="details"  id="secondelement">
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>État civil</h2>
+                </div>
+               <div class="formBox">
+                   <form action="">
+                       <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Situation familiale" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Lieu de travail" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px ;">
+                            <input type="text" placeholder="Salaire" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Lieu de naissance" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Nombre d’enfants" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Addresse" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Date de naissance" style="width: 150% ;"> 
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Compensation" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                   </form>
+               </div> 
+            </div>
+        </section>
+        <section class="details"  id="thirdelement">
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Compétences</h2>
+                </div>
+               <div class="formBox">
+                   <form action="">
+                       <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Niveau scolaire" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Lieu de travail précédent" style="width: 150% ; margin-left: 100px; ">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px ;">
+                            <input type="text" placeholder="Dernier diplôme académique" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Domaine de la formation continue" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Ancienneté au travail" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Configuration requise" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="La mission à l'intérieur du centre" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Motivations au travail" style="width: 150% ; margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="La manière d’augmenter la qualité au travail" style="width: 150% ;">
+                        </div>
+                   </form>
+               </div> 
+            </div>
+        </section>
+        <section class="details" id="fourthelement">
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>État sanitaire</h2>
+                </div>
+               <div class="formBox">
+                   <form action="">
+                       <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Etat sanitaire" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Statut handicapé" style="width: 150% ;  margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px ;">
+                            <input type="text" placeholder="couverture santé" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Type de couverture santé" style="width: 150% ;  margin-left: 100px;">
+                        </div>
+                   </form>
+               </div> 
+            </div>
+        </section>
+        <section class="details"  id="fifthelement">
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Lieu du travail</h2>
+                </div>
+               <div class="formBox">
+                   <form action="">
+                       <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Nom du centre" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Équipement non disponible " style="width: 150% ;margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Adresse du centre " style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Capacités disponibles" style="width: 150% ;margin-left: 100px; ">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Province du centre " style="width: 150% ;  ">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Capacités non  disponibles" style="width: 150% ;margin-left: 100px; ">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Équipement disponible" style="width: 150% ; ">
+                        </div>
+                   </form>
+               </div> 
+            </div>
+        </section>
+        <section class="details"  id="sixthelement">
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Probléme</h2>
+                </div>
+               <div class="formBox">
+                   <form action="">
+                       <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Nom du problème" style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px">
+                            <input type="text" placeholder="Type de problème"style="width: 150% ;  margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px ;">
+                            <input type="text" placeholder=" Cause du problème " style="width: 150% ;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px ; ">
+                            <input type="text" placeholder="Comment traiter le problème" style="width: 150% ;  margin-left: 100px;">
+                        </div>
+                        <div class="inputBox" style="float:left; margin:80px ;">
+                            <input type="text" placeholder="Le moyen d'éviter le problème" style="width: 150% ;">
+                        </div>  
+                   </form>
+               </div> 
+            </div>
+        </section>
+        <div class="buttons" style="margin-bottom:100px ;">
+            <input type="submit" value="Precedent"> </input>
+            <input type="submit" value="Ajouter" class="color"> </input>
+            <input type="submit" value="Suivant"> </input>
+        </div>
+
+     </div>
+ </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            //MenuToggle
+            function menuToggle(){
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('activate')
+            }
+
+            let toggle = document.querySelector('.toggle');
+            let navigation  = document.querySelector('.navigation');
+            let main  = document.querySelector('.main');
+            
+            toggle.onclick = function(){
+                navigation.classList.toggle('active');
+                main.classList.toggle('active');
+            }
+            //add hovered class in selected list item
+            let list = document.querySelectorAll('.navigation li ');
+            function activeLink(){
+                list.forEach((item)=>
+                item.classList.remove('hovered'));
+            }
+            list.forEach((item)=>
+            item.addEventListener('mouseover',activeLink));
+        </script>
+        <script src="./App.js"></script>
+
+    </body>
+    </html>
